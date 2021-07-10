@@ -30,7 +30,7 @@
     "prettier": "2.3.2"
   },
   "lint-staged": {
-    "**/*": [
+    "src/**/*.{js,json,md}": [
       "prettier --write --ignore-unknown",
       "eslint ."
     ]
