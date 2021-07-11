@@ -6,7 +6,9 @@
 function sumRange(n) {
   let res = 0;
   //TODO: 把程序改对使得执行此文件不报错
-
+  for(i=1;i<=n;i++){
+    res+=i;
+  };
   return res;
 }
 
