@@ -1,0 +1,7 @@
+{
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.fontFamily": "Fira Code,Microsoft Yahei UI,monospace",
+  "editor.fontLigatures": true,
+  "debug.allowBreakpointsEverywhere": true,
+  "editor.formatOnSave": true
+}
