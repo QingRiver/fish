@@ -6,8 +6,8 @@ describe('test transkey.js', () => {
     const map = { 1: '子', 2: '丑', 3: '寅' }
     expect(transKey(obj, map)).toStrictEqual({
       1: '老鼠',
-      2: '老虎',
-      3: '老牛',
+      2: '老牛',
+      3: '老虎',
     })
   })
 })

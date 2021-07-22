@@ -1,9 +1,11 @@
 //TODO: addn 构造一系列小add函数 考察点:高阶函数
 
-const add1 = (add1) => add1 + 1 //FIXME: 写成一个 加1函数
-const add2 = (add2) => add2 + 2 //FIXME: 写成一个 加2函数
-const add3 = (add3) => add3 + 3 //FIXME:
-const add4 = (add4) => add4 + 4 //FIXME:
-const add5 = (add5) => add5 + 5 //FIXME:
+const add = (a) => (b) => a + b
+
+const add1 = add(1)
+const add2 = add(2)
+const add3 = add(3)
+const add4 = add(4)
+const add5 = add(5)
 
 export { add1, add2, add3, add4, add5 }
