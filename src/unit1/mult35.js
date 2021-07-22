@@ -6,7 +6,13 @@
  */
 
 const mult35 = (n) => {
-  return n
+  let sum = 0
+  for (let i = 0; i <= n; i++) {
+    if (n % 3 == 0 || n % 5 == 0) {
+      sum += i
+    }
+  }
+  return sum
 }
 
 export { mult35 }
