@@ -5,8 +5,17 @@
  *  Note: If the number is a multiple of both 3 and 5, only count it once. Also, if a number is negative, return 0(for languages that do have them)
  */
 
+import { range } from './range'
+
 const mult35 = (n) => {
-  return n
+  let sum = 0
+  // 这里是 below n
+  for (const i of range(n - 1)) {
+    if (i % 3 === 0 || i % 5 === 0) {
+      sum += i
+    }
+  }
+  return sum
 }
 
 export { mult35 }
