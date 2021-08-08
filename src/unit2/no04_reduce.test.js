@@ -20,6 +20,6 @@ describe('no04 reduce', () => {
         [1, 2, 3],
         [4, 5, 6],
       ]),
-    ).toStrictEqual([])
+    ).toStrictEqual([1, 2, 3, 4, 5, 6])
   })
 })
