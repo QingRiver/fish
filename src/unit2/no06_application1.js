@@ -4,5 +4,16 @@
 //根据数字重量排序
 
 export const sortNumberWeight = (numberStringList) => {
-  return [...numberStringList]
+  const getwei = (num) => {
+    let res = 0
+    const numArr = num.split('')
+    numArr.forEach(function (index) {
+      res += Number(index)
+    })
+    return res
+  }
+  let res = numberStringList.sort((a, b) => {
+    return getwei(a) - getwei(b)
+  })
+  return res
 }
