@@ -21,7 +21,7 @@ describe('test no01 map', () => {
         { chinese: 99, math: 99, english: 99 },
         { chinese: 0, math: 0, english: 0 },
         { chinese: 80, math: 80, english: 80 },
-      ]).toStrictEqual([297, 0, 240]),
-    )
+      ]),
+    ).toStrictEqual([297, 0, 240])
   })
 })

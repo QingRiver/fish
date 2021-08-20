@@ -19,7 +19,7 @@ export const sortFruits = (fruitsList) => {
   })
   mapped.sort((a, b) => a.value - b.value)
   let res = mapped.map(function (el) {
-    return test[el.index]
+    return fruitsList[el.index]
   })
   return res
 }

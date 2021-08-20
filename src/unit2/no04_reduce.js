@@ -1,6 +1,6 @@
 //reduce求和
 export const reduceSum = (numberList) => {
-  return numberList.reduce((acc, cur) => acc + cur)
+  return numberList.reduce((acc, cur) => acc + cur, 0)
 }
 
 //计算每个字母出现的次数
